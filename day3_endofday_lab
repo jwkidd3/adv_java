@@ -1,0 +1,19 @@
+
+
+App
+2 Rest Services
+-1 Controller
+-1 Service
+-1 DAO 
+1 Rest Service acting as the from end REST service
+-Option: Use Rabbit to communicate with other 2 services
+Request->Controller->Service-DAO
+Implement Crud operations for Customers/Purchases
+
+
+1 MVC application
+Implement Retrieval of Customers/Purchases
+Implement Purchases for a Customer
+-Should call Back end rest services to retrieve data to display
+-Use Thymeleaf as display tech
+

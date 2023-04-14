@@ -1,0 +1,7 @@
+Description:
+The Burger Joint has been unionized.
+New union rules mandate mandate that a cook can only cook 300 burgers in one shift.
+The Burger Joint needs to serve a continuous stream of burgers. 
+Modify the example to support the union rules without sacrificing any burger cooking downtime.
+
+Duration: 20 minutes

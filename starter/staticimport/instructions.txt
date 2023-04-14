@@ -1,0 +1,4 @@
+Create a stand-alone Java application called Mixer.
+Mixer accept any number of command line arguments.
+If Mixer receives 3 or less arguments, Mixer should sort the arguments using Arrays.sort and print the results.
+If Mixer receives more than 3 arguments, Mixer should sort the arguments, count the frequency of each argument, and print the argument and its frequency in sorted order.

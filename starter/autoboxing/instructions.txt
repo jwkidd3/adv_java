@@ -1,0 +1,8 @@
+Description:
+Use the Mixer application you wrote in the static import lab as your starting point.
+Apply autoboxing concepts to streamline the code that put the frequency count into the Map.
+Apply autoboxing concepts to streamline the code when you get the frequency count from the Map.
+Changing the Mixer to use autoboxing should not effect the results of the application.
+
+Duration:
+15 minutes
