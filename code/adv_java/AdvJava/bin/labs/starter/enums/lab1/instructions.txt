@@ -1,0 +1,9 @@
+Description:
+Create an enumeration called Month to represent the months of the year.
+Allow the user to specify their favorite month from the command line.
+Convert the String value for the month to the appropriate Month enum value.
+If an invalid month is specified, notify the user and print off all valid values for Month.
+Once a Month is selected, print off a message describing what season the month belongs to.
+
+Duration:
+20 minutes

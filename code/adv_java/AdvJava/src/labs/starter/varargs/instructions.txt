@@ -1,0 +1,11 @@
+Description:
+Use Mixer as your starting point. 
+Create a method called print.
+Print should be a variable argument method accepting Object.
+Change Mixer to use the print method.
+If print receives a single argument, print it directly.
+If it receives two values, print the results as name=value.
+If it receives more than two values, print the values as a comma-separated list.
+
+Duration:
+20 minutes

@@ -1,0 +1,12 @@
+Description:
+Modify Enum Lab 1. 
+
+Refactor the enumeration implementation, adding a more robust static factory method.
+Regardless of the case of the String passed in, if the String matches a Month’s name, the Month should be returned. 
+
+Additionally, associate a season with each enum value and make it accessible through a getSeason method call. 
+
+Modify your application to use the enum modifications. 
+
+Duration: 
+20 minutes 

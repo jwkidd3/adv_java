@@ -1,0 +1,5 @@
+Modify the solution of Lab 1 to support remote management of the CacheManager.
+Create a new Mbean called Manager.
+Manager should allows you to create , register, and unregister a CacheManager with the Mbean platform server.
+When creating a CacheManager Mbean, the Manager should create a new cache, prior to registering the CacheManager with the Mbean server.
+As part of the unregistration, the cache should be deleted and the CacheManager removed from the platform Mbean server. 

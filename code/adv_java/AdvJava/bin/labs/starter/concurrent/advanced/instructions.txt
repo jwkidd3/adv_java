@@ -1,0 +1,15 @@
+Description:
+
+Create a basic site map creation utility.
+The site map creation utility should generate a text file containing all of
+the domain-specific URLs found on a given website. Associated with each domain,
+should be a indicator denoting whether the URL was accessible.
+The site map utility does not need to track images, only <a href> tags.
+Use multiple threads to make the utility efficient. There should be one thread that finds <a href>s,
+one thread that processes <a href>s. A map could be used to represent the “indexed” site.
+A queue could be used as the shared resource representing the unindexed / untested elements of the site.
+
+When all of the <a href>s are processed, the application should generate a text file and then shut-down gracefully.
+
+Duration: 1 hour
+

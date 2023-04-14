@@ -1,0 +1,26 @@
+Description:
+Use BasicDiscoveryExample as your starting point.
+
+Convert BasicDiscoveryExample into a replacement for the
+JDK command-line utility javap. javap provides a source-code
+like view of a class, showing class structure, fields, and methods.
+
+In your replacement, show the class structure, all public fields,
+methods, and constructors. The order of the output should follow:
+
+public class MyClass extends ParentClass {
+
+  public static String staticField;
+  public String instanceField;
+
+  public MyClass() {}
+
+  public String getInstanceField() {}
+
+  public static String getStaticField() {}
+
+}
+
+If you want a real challenge, make the output compilable.
+
+Duration: 30 minutes. 

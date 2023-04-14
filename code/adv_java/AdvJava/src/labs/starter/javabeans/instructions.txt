@@ -1,0 +1,29 @@
+Description:
+Create an application that persists and restores a JavaBean using
+the XML mechanism. Use the NameBean as your JavaBean. Store the
+persisted NameBean in a file called family.xml. The application should
+support a command line argument to specify whether the bean should be
+saved or restored.
+
+To make this fun (and see the power of an object graph), have the
+application create a family of NameBeans. The family should be
+stored in a list. Instead of storing just the single NameBean, store
+the entire family.
+
+Once you have written your family to the family.xml file, examine it
+with your favorite text editor. Notice the object graph that was created
+during the persistence of your family.
+
+For a real challenge, consider writing a PropertyChangeListener
+and associating it with the Dad's NameBean's lastName bound property.
+
+After restoring the stored NameBean, trigger an PropertyChangeEvent by
+changing the lastName property of Dad. Upon receiving the event, the
+event listener should print a message noting that the last name has
+changed, and then the event listener should proceed to change all of the
+lastNames in the family to match the dads. After the family's last
+names have been changed, the application should save the modified
+family.
+
+Duration: 20 minutes
+

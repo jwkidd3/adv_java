@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_Y_ORIGIN" value="60"/>
+		<item key="DIALOG_X_ORIGIN" value="203"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="dialogHeight" value="563"/>
+		<item key="dialogWidth" value="900"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ShowViewDialog">
+		<item key="DIALOG_WIDTH" value="308"/>
+		<item key="DIALOG_FONT_NAME" value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande"/>
+		<item key="ShowViewDialog.STORE_SELECTED_VIEW_ID" value="org.eclipse.wst.server.ui.ServersView"/>
+		<item key="DIALOG_HEIGHT" value="415"/>
+		<item key="DIALOG_X_ORIGIN" value="521"/>
+		<item key="DIALOG_Y_ORIGIN" value="161"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.server.ui"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
+</section>

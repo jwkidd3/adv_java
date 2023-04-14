@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/AdvJava/src/examples/jmx/CacheManagerAgent.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="examples.jmx.CacheManagerAgent"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="AdvJava"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcom.sun.management.jmxremote&#10;  -Dcom.sun.management.jmxremote.port=19001&#10;  -Dcom.sun.management.jmxremote.ssl=false&#10;  -Dcom.sun.management.jmxremote.authenticate=false"/>
+</launchConfiguration>

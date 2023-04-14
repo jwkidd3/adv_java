@@ -1,0 +1,8 @@
+Description:
+Write an example that tests the “lint” detector in the compiler
+Test the lint detection on switches and finally block
+Turn off lint detection when you compile
+Modify the code so that lint detection will be turned off regardless of the compiler flags (HINT: use annotations)
+
+Duration:
+20 minutes

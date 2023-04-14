@@ -1,0 +1,37 @@
+Description:
+Use RuntimeInvocationExample as a starting point.
+
+The current RunTimeInvocationExample uses the newInstance
+method to create an instance of a class. In certain cases,
+this is fine. However, most classes have constructors that
+take arguments for their object initialization.
+
+Expand RuntimeInvocationExample to support constructor-based
+object instantiation for the primitive wrapper classes and
+String.
+
+In order for constructor-based object instantiation to work,
+RunTimeInvocationExample will need to know the constructor
+argument type and a default value for that argument.
+
+All primitive wrapper classes, and the String class, support
+a single parameter constructor that takes a String argument.
+Using reflection, find this constructor. In order to invoke the
+constructor, you will need a parameter value. The parameter value
+should be passed as args[1] (second argument on the command line).
+
+After modifying the RuntimeInvocationExample, you should find
+that your toString invocation now prints off an actual value. It
+should be the same value found in args[1].
+
+If you want a real challenge, expand your solution to support
+any type for the constructor-based object instantiation.
+
+This will require using reflection to find the supported
+type associated with a constructor, creating an object of that
+type, and then passing that object to the actual constructor. The value
+for the object used to create the desired object should be passed
+on the command line.
+
+Duration:
+30 minutes. 

@@ -1,0 +1,12 @@
+Description: 
+Add a tostring method to the Month enumeration. 
+
+The tostring method should return a title-case version of the month name (December). 
+Apply the @Override annotations to tostring method. 
+tostring is not a valid method to override. 
+You should see compiler errors. 
+
+Clear up any compile errors by changing tostring to toString. 
+
+Duration: 
+15 minutes

@@ -1,0 +1,10 @@
+Description:
+Use the Mixer as your starting point.
+
+Refactor the Mixer so that the frequency map becomes type safe.
+The frequency map should contain <String>, <Integer> as its map structure.
+
+The modifications should allow you to remove any type-casting.
+
+Duration:
+15 minutes

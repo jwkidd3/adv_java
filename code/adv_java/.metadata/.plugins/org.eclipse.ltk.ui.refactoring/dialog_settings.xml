@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="RefactoringWizard.preview">
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="deleteSubPackages" value="false"/>
+		<item key="moveWizard.updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
+	</section>
+	<section name="RefactoringStatusDialog">
+		<item key="DIALOG_WIDTH" value="800"/>
+		<item key="DIALOG_FONT_NAME" value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande"/>
+		<item key="DIALOG_HEIGHT" value="472"/>
+	</section>
+</section>

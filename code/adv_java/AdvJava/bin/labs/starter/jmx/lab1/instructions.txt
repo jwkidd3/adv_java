@@ -1,0 +1,6 @@
+Create a CacheAdder thread to the cache manager example.
+Upon creation of a new cache, a new CacheAdder thread should be created.
+The CacheAdder should add elements to the cache until the cache is deleted.
+At which point, the CacheAdder thread should transition to the dead state.
+Each susbsequent new creation of a cache will create a new CacheAdder thread.
+Monitor the results using Jconsole. 
